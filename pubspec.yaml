@@ -31,6 +31,41 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Estado global
+  flutter_riverpod: ^2.5.1
+
+  # Autenticación y base remota con Appwrite
+  appwrite: ^11.0.1
+
+  flutter_dotenv: ^5.1.0
+  # Base de datos local (Hive o Drift, escoge uno según tu preferencia)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  # drift: ^2.14.1
+  # drift_flutter: ^2.14.1
+  # sqlite3_flutter_libs: ^0.5.15
+
+  # Serialización de datos
+  json_annotation: ^4.9.0
+
+  # Gráficas
+  fl_chart: ^0.66.2
+
+  # HTTP (para llamadas a APIs de IA si decides usar una externa como OpenAI)
+  http: ^1.2.1
+
+  # UI y diseño
+  flutter_hooks: ^0.20.5
+  hooks_riverpod: ^2.5.1
+  go_router: ^13.1.0
+
+  # Utilidades
+  intl: ^0.19.0
+  path_provider: ^2.1.3
+  uuid: ^4.3.3
+
+  # IA básica (opcional, por si conectas a OpenAI)
+  dart_openai: ^5.1.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -39,6 +74,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  build_runner: ^2.4.7
+  json_serializable: ^6.8.0
+  hive_generator: ^2.0.1
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
